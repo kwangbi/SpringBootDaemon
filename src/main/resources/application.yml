@@ -1,0 +1,15 @@
+spring:
+  devtools:
+    restart:
+      enabled: false
+  main:
+    web-application-type: none
+
+
+sms:
+  wait: 5000 #5??? MILLISECONDS
+
+
+logging:
+  level:
+    root: info
