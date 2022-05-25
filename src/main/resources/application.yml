@@ -7,7 +7,7 @@ spring:
 
 
 sms:
-  wait: 5000 #5??? MILLISECONDS
+  wait: 5000 #5초 MILLISECONDS
 
 
 logging:
