@@ -2,9 +2,6 @@ spring:
   devtools:
     restart:
       enabled: false
-  main:
-    web-application-type: none
-
 
 sms:
   wait: 5000 #5초 MILLISECONDS
@@ -13,3 +10,9 @@ sms:
 logging:
   level:
     root: info
+server:
+  port: 8081
+management:
+  endpoint:
+    shutdown:
+      enabled: true
